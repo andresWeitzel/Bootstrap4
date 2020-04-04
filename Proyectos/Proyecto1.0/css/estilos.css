@@ -1,0 +1,30 @@
+.container {
+  border: 1px solid red; }
+
+.row {
+  border: 1px solid blue; }
+
+.row > * {
+  border: 2px solid green; }
+
+.bg-primary {
+  background-color: darkturquoise; }
+
+/*.servicios {
+    display: flex;
+}*/
+.servicios > * {
+  border: 1px solid red; }
+
+p {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start; }
+
+a {
+  border: 1px solid red; }
+
+/*# sourceMappingURL=estilos.css.map */

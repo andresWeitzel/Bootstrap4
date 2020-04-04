@@ -1,0 +1,48 @@
+//-------------------------------------
+//          PATRON DE COLORES
+//-------------------------------------
+$texto:red;
+$principal:blue;
+$secundario:pink;
+//ESTILOS DE PRUEBAS
+.container {
+    border: 1px solid red;
+}
+
+.row {
+    border: 1px solid blue;
+}
+
+//Todas las etiquetas que son hijas de .row
+.row>* {
+    border: 2px solid green;
+}
+
+.bg-primary {
+    background-color: darkturquoise;
+}
+
+//---No hace falta agregar la propiedad flex a la clase servicios ya que con d-flex en el tag del codigo principal lo podemos usar como clase propia de bootstrap
+
+/*.servicios {
+    display: flex;
+}*/
+
+//Para todos los hijos directos>*
+.servicios>* {
+    border: 1px solid red;
+}
+
+p {
+    //width: 500px;
+    //--Utilizamos flex
+    //display: flex;
+    //justify-content: flex-end;
+    //--Utilizamos flex-inline
+    display: inline-flex;
+    justify-content: flex-start;
+}
+
+a {
+    border: 1px solid red;
+}
